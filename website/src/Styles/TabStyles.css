@@ -1,35 +1,32 @@
 .DefaultTabStyle{
-    color:black;
-    width: 24.7%;
-  height: 50%;
-  background-color: white;
+  color:white;
+    width: 25%;
+  height: 100%;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom:1px solid black;
-  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  font-family: cursive;
 }
 .DefaultTabStyle:hover {
     cursor: pointer;
-    background-color: rgba(236, 236, 236, 0.98);
+    text-decoration:underline double white;
+    text-underline-offset: 0.15rem;
   }
 
 .ActiveTabStyle{
-    color:orange;
-    width: 24.7%;
-  height: 50%;
+    color: black;
+    width: 25%;
+  height: 100%;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  font-family: cursive;
 }
 .ActiveTabStyle:hover {
     cursor: pointer;
+    background-color: white;
   }
 
   .ActiveTabStyle h2{
