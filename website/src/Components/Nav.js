@@ -8,13 +8,17 @@ import "../Styles/TabStyles.css";
 
 const Container = styled.div`
   width: 100%;
-  height: calc(0.1 * 100vh); //10% of viewheight
-  background-color: RGB(87, 81, 81);
+  height: calc(0.05 * 100vh); //5% of viewheight
+  background-color: black;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: end;
   text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin-top: 1rem;
 `;
 
 const BodyContainer = styled.div`
